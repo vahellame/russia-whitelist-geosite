@@ -38,8 +38,8 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: latest
-          name: geosite (latest)
+          tag_name: "1.0.${{ github.run_number }}"
+          name: "1.0.${{ github.run_number }}"
           body: "Built from data/ · commit ${{ github.sha }} · run ${{ github.run_number }}"
           make_latest: true
           files: |
