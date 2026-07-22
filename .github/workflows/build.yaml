@@ -25,24 +25,23 @@ jobs:
         with:
           go-version: stable
 
-      - name: Install v2fly/geoip
-        run: go install github.com/v2fly/geoip@latest
+      - name: Install domain-list-community
+        run: go install github.com/v2fly/domain-list-community@latest
 
-      - name: Build geoip.dat
-        run: |
-          echo '{"input":[{"type":"text","action":"add","args":{"inputDir":"./data","onlyIPType":"ipv4"}}],"output":[{"type":"v2rayGeoIPDat","action":"output","args":{"outputName":"geoip.dat","outputDir":"./output"}}]}' | geoip -c /dev/stdin
+      - name: Build geosite.dat
+        run: domain-list-community -datapath ./data -outputname geosite.dat -outputdir ./output
 
       - name: Checksum
         working-directory: output
-        run: sha256sum geoip.dat | tee geoip.dat.sha256sum
+        run: sha256sum geosite.dat | tee geosite.dat.sha256sum
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: geoip (latest)
+          name: geosite (latest)
           body: "Built from data/ · commit ${{ github.sha }} · run ${{ github.run_number }}"
           make_latest: true
           files: |
-            output/geoip.dat
-            output/geoip.dat.sha256sum
+            output/geosite.dat
+            output/geosite.dat.sha256sum
