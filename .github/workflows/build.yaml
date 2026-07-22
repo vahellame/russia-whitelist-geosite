@@ -1,0 +1,48 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - ".github/workflows/build.yaml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install v2fly/geoip
+        run: go install github.com/v2fly/geoip@latest
+
+      - name: Build geoip.dat
+        run: |
+          echo '{"input":[{"type":"text","action":"add","args":{"inputDir":"./data","onlyIPType":"ipv4"}}],"output":[{"type":"v2rayGeoIPDat","action":"output","args":{"outputName":"geoip.dat","outputDir":"./output"}}]}' | geoip -c /dev/stdin
+
+      - name: Checksum
+        working-directory: output
+        run: sha256sum geoip.dat | tee geoip.dat.sha256sum
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: geoip (latest)
+          body: "Built from data/ · commit ${{ github.sha }} · run ${{ github.run_number }}"
+          make_latest: true
+          files: |
+            output/geoip.dat
+            output/geoip.dat.sha256sum
