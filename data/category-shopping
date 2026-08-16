@@ -27,7 +27,13 @@ full:youla.io
 
 # Магнит
 full:magnit.ru
-
+full:id.magnit.ru
+full:images-foodtech.magnit.ru
+full:event-stream-api.magnit.ru
+full:middle-api.magnit.ru
+full:fda.middle-api.magnit.ru
+full:imgproxy.prod.ya.magnit.ru
+full:magnit-api-cdn.prod.ya.magnit.ru
 
 # Дикси
 full:dixy.ru
