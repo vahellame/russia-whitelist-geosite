@@ -9,7 +9,7 @@ full:assets.otello.ru
 
 
 # Максим
-full:taximaxim.ru
+
 
 
 # РЖД
@@ -17,52 +17,52 @@ domain:rzd.ru
 
 
 # Гранд Сервис Экспресс
-full:grandtrain.ru
+
 
 
 # Туту
-full:tutu.ru
-full:www.tutu.ru
-full:id.tutu.ru
-full:user-api.tutu.ru
-full:hotel.tutu.ru
-full:frontlog.tutu.ru
-full:main-page.tutu.ru
-full:ux.tutu.ru
-full:chat-widget-iframe.tutu.ru
 
-full:cdn1.tu-tu.ru
-full:cdn2.tu-tu.ru
-full:cdn4.tu-tu.ru
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Деловые линии
-full:dellin.ru
+
 
 
 # Ситидрайв
-full:citydrive.ru
+
 
 
 # Аэрофлот
-full:aeroflot.ru
+
 
 
 # Победа
-full:flypobeda.ru
+
 
 
 # S7
-full:s7.ru
-full:www.s7.ru
-full:chat.s7.ru
-full:portal.s7cdn.online
-full:public.s7cdn.online
-full:s3-portal.s7cdn.online
+
+
+
+
+
+
 
 
 # Делимобиль
-full:delimobil.ru
+
 
 
 # TaxSee
@@ -76,7 +76,7 @@ full:belkacar.ru
 
 
 # Едем.рф
-full:xn--d1abb2a.xn--p1ai # едем.рф
+
 
 
 # Парковки Санкт-Петербурга
@@ -85,4 +85,4 @@ full:parking.spb.ru
 
 
 # Whoosh
-full:whoosh.bike
+

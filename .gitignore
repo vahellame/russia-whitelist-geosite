@@ -1,4 +1,51 @@
-.idea
-.venv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Инструменты
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.dmypy.json
+.coverage
+htmlcov/
+.tox/
+
+# Редакторы
+.idea/
+.vscode/
+*.swp
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Сборка
 output/
 .cache/
+
+# Данные в репозитории, не трогаются общими правилами выше
+!data/
+!data/**
+!data/whitelist

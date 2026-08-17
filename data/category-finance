@@ -1,5 +1,5 @@
 # Национальная система платёжных карт
-full:nspk.ru
+
 
 full:pay.mironline.ru
 # mirconnect.ru
@@ -8,14 +8,14 @@ full:pay.mironline.ru
 
 
 # Банк России
-full:cbr.ru
+
 
 
 # Альфа-Банк
 full:alfabank.ru
 full:www.alfabank.ru
 
-full:netmonet.co
+
 
 
 # ВТБ
@@ -45,18 +45,18 @@ full:gazprombank.ru
 
 
 # ОТП Банк
-full:otpbank.ru
-full:www.otpbank.ru
+
+
 full:dc.otpbank.ru
 # Другие поддомены otpbank.ru не в белых списках
 
 
 # Модульбанк
-full:modulbank.ru
+
 
 
 # Т-Банк (частично)
-full:certs.t-bank-app.ru
+
 
 
 # ЮMoney (частично)
@@ -69,10 +69,10 @@ full:moex.com
 
 
 # Банки.ру
-full:banki.ru
+
 
 
 # Кредистория
-full:credistory.ru
-full:esia.credistory.ru
-full:cdn.credistory.ru
+
+
+

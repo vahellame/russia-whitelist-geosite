@@ -3,19 +3,19 @@ full:avito.ru
 full:www.avito.ru
 full:m.avito.ru
 full:app.avito.ru
-full:static.avito.ru
 
-full:www.avito.st
-full:00.img.avito.st
+
+
+
 full:10.img.avito.st
 full:20.img.avito.st
-full:30.img.avito.st
+
 full:40.img.avito.st
-full:50.img.avito.st
-full:60.img.avito.st
-full:70.img.avito.st
-full:80.img.avito.st
-full:90.img.avito.st
+
+
+
+
+
 
 full:avitostat.avito.com
 
@@ -26,31 +26,31 @@ full:youla.io
 
 
 # Магнит
-full:magnit.ru
-full:id.magnit.ru
+
+
 full:images-foodtech.magnit.ru
-full:event-stream-api.magnit.ru
-full:middle-api.magnit.ru
+
+
 full:fda.middle-api.magnit.ru
 full:imgproxy.prod.ya.magnit.ru
 full:magnit-api-cdn.prod.ya.magnit.ru
 
 
 # Дикси
-full:dixy.ru
+
 
 
 # Азбука вкуса
-full:av.ru
-full:azbukavkusa.ru
+
+
 
 
 # ВкусВилл
-full:vkusvill.ru
+
 
 
 # Ашан
-full:auchan.ru
+
 
 
 # SPAR
@@ -58,112 +58,112 @@ full:myspar.ru
 
 
 # Metro
-full:metro-cc.ru
+
 
 
 # Лента
-full:lenta.com
-full:lenta.tech
+
+
 
 
 # Fix Price
-full:fix-price.com
+
 
 
 # М.Видео
-full:mvideo.ru
+
 
 
 # Sokolov
-full:sokolov.ru
-full:static-catalog.sokolov.ru
+
+
 
 
 # О'Кей
-full:okmarket.ru
+
 
 
 # Красное&Белое
-full:krasnoeibeloe.ru
+
 
 
 # Достависта
-full:dostavista.ru
-full:robot.dostavista.ru
+
+
 
 
 # Додо Пицца
-full:dodopizza.ru
 
-full:dodopizza.com
-full:globalapi.dodopizza.com
 
-full:cdn.dodostatic.net
-full:media.dodostatic.net
 
-full:frontlogger.dodois.io
-full:mapi.dodois.io
-full:esapi.dodois.io
-full:pay.dodois.io
 
-full:dodopizza.threads.im
 
-full:mapi.dodois.ru
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Самокат
-full:samokat.ru
-full:api.samokat.ru
-full:core-colibri-api.samokat.ru
-full:web-static.samokat.ru
-full:health.samokat.ru
-full:sting.samokat.ru
-full:error-tracking.samokat.ru
-full:code-push-api.samokat.ru
-full:damcdn.samokat.ru
+
+
+
+
+
+
+
+
+
 
 
 # Купер
-full:kuper.ru
-full:ssp-gw.kuper.ru
-full:imgproxy.kuper.ru
 
-full:sbermarket.ru
+
+
+
+
 
 
 # Мегамаркет
-full:megamarket.ru
+
 
 
 # Петрович
-full:petrovich.ru
+
 
 
 # Детский мир
-full:detmir.ru
-full:www.detmir.ru
 
-full:go.detmir.st
+
+
+
 
 
 # Вкусно и точка
-full:vkusnoitochka.ru
-full:mobile-api.vkusnoitochka.ru
+
+
 full:ma-prod.cdn.vkusnoitochka.ru
 
 
 # Бургер Кинг
-full:burgerkingrus.ru
-full:edu.burgerkingrus.ru
-full:orderapp.burgerkingrus.ru
+
+
+
 full:orderapp-app-static.burgerkingrus.ru
-full:notifier.burgerkingrus.ru
+
 
 
 # Rostic's
-full:rostics.ru
 
-full:api.prod.digital.uni.rest
+
+
 full:grpc.prod.digital.uni.rest
 
 
@@ -172,21 +172,21 @@ full:auto.ru
 
 
 # Lamoda
-full:lamoda.ru
-full:www.lamoda.ru
 
-full:a.lmcdn.ru
+
+
+
 
 
 # ЦУМ
-full:tsum.com
-full:tsum.ru
+
+
 
 
 # Лэтуаль (частично)
-full:letu.ru
-full:www.letu.ru
-full:i.letu.ru
+
+
+
 
 
 # Циан (частично)
@@ -195,29 +195,29 @@ full:static.cdn-cian.ru
 
 
 # Золотое Яблоко (частично)
-full:goldapple.ru
-full:api-n.goldapple.ru
-full:ccdn.goldapple.ru
-full:mcdn.goldapple.ru
-full:pcdn.goldapple.ru
-full:vcdn.goldapple.ru
+
+
+
+
+
+
 
 
 
 # Sunlight (частично)
-full:g0.sunlight.net
-full:g1.sunlight.net
-full:g2.sunlight.net
-full:g3.sunlight.net
-full:g4.sunlight.net
-full:g5.sunlight.net
-full:g6.sunlight.net
-full:g7.sunlight.net
-full:g8.sunlight.net
-full:g9.sunlight.net
+
+
+
+
+
+
+
+
+
+
 
 
 # DNS
-full:dns-shop.ru
-full:www.dns-shop.ru
-full:c.dns-shop.ru
+
+
+

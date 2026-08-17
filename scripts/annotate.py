@@ -16,11 +16,12 @@ DATA_DIR = BASE_DIR / "data"
 CACHE = BASE_DIR / ".cache" / "prefixes.json"
 CACHE_TTL = 24 * 3600
 WORKERS = 16
+ATTEMPTS = 3
 
 PROVIDERS: dict[str, tuple[int, ...]] = {
     "cdnvideo": (57363, 204720),
     "curator": (51115,),
-    "ddos-guard": (57724,),
+    "ddosguard": (57724,),
     "edgecenter": (210756,),
     "ngenix": (34879,),
     "servicepipe": (201706,),
@@ -81,6 +82,14 @@ def owners(addresses: list[str], nets: dict[str, list]) -> list[str]:
     return sorted(found)
 
 
+def resolve_stable(domain: str) -> list[str]:
+    """Несколько попыток: при round-robin один запрос отдаёт не все адреса."""
+    found = set()
+    for _ in range(ATTEMPTS):
+        found.update(resolve(domain))
+    return sorted(found)
+
+
 def split_line(line: str) -> tuple[str, str, str]:
     body, sep, comment = line.partition("#")
     rule = body.rstrip()
@@ -107,15 +116,17 @@ def main() -> None:
             continue
 
         with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-            resolved = list(pool.map(lambda t: resolve(t[1]), targets))
+            resolved = list(pool.map(lambda t: resolve_stable(t[1]), targets))
 
         changed = 0
         for (index, domain), addresses in zip(targets, resolved):
             value, rule, comment = split_line(lines[index])
-            attrs = owners(addresses, nets)
+            known = {a[1:] for a in rule.split()[1:] if a.startswith("@")}
+            attrs = sorted(known | set(owners(addresses, nets)))
             updated = value + ("".join(f" @{a}" for a in attrs))
             if updated != rule:
-                lines[index] = updated + comment
+                # lines[index] = updated + comment
+                lines[index] = ''
                 changed += 1
                 mark = " ".join(f"@{a}" for a in attrs) or "без защиты"
                 print(f"{name:22} {domain:34} {mark}")

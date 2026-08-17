@@ -4,7 +4,7 @@
 
 Домены находящихся в белых списках РФ. Собираются в `geosite.dat` для Xray и в rule-set форматов `.srs`, `.mrs` и `.list` для sing-box, mihomo и Shadowrocket, отдельным набором на каждую категорию
 
-К релизу прикладываются две контрольные суммы: `geosite.dat.sha256` с голым хешем на 64 символа, по которому INCY определяет, изменился ли файл ([подробнее](https://docs.incy.cc/routing/#геофайлы-оптимизированное-скачивание)), и `geosite.dat.sha256sum` в формате GNU coreutils
+К релизу прикладываются две контрольные суммы: `geosite.dat.sha256` с хешем на 64 символа, по которому INCY определяет, изменился ли файл ([подробнее](https://docs.incy.cc/routing/#геофайлы-оптимизированное-скачивание)), и `geosite.dat.sha256sum` в формате GNU coreutils
 
 ## Категории
 
@@ -16,24 +16,34 @@
 
 ## Проверка
 
-`scripts/check.py` прогоняет точные домены через [BSCHEKER API](https://bsbord.com/llms.txt) и показывает, у каких операторов они не отвечают
+`scripts/check.py` прогоняет точные домены через [BSCHEKER API](https://bsbord.com/llms.txt) и удаляет те, что доступны не у всех операторов
 
 ```sh
 export BSCHEKER_TOKEN=bsk_live_...
 python3 scripts/check.py              # весь whitelist
 python3 scripts/check.py category-gov # отдельный список
+python3 scripts/check.py --dry-run    # только показать
 ```
 
-`include:` разворачивается, проверяются только записи `full:`, по TCP и SNI и только через каналы с включённым белым списком. Списание с баланса аккаунта
+`include:` разворачивается, проверяются только записи `full:`, по TCP и SNI и только через каналы с включённым белым списком. Домен, не ответивший хотя бы у одного оператора, вырезается из всех списков, где встречается
+
+Перед запуском скрипт показывает цену и остаток на счету и ждёт подтверждения
+
+## Разметка
 
 `scripts/annotate.py` определяет, за какой защитой стоит каждый `full:` домен, и проставляет рядом атрибут
 
 ```sh
-python3 scripts/annotate.py                 # все списки
-python3 scripts/annotate.py category-gov    # отдельный список
+python3 scripts/annotate.py              # все списки
+python3 scripts/annotate.py category-gov # отдельный список
 ```
 
-Домен резолвится, адрес сверяется с анонсируемыми префиксами семи провайдеров из RIPEstat, рядом появляется `@ngenix`, `@ddos-guard` и так далее. Префиксы кэшируются в `.cache` на сутки
+Домен резолвится, адрес сверяется с анонсируемыми префиксами CDN и DDoS-защит из RIPEstat, в строке появляется `@ngenix`, `@ddos-guard` и так далее:
+
+```text
+full:apteka.ru @curator
+full:eapteka.ru @ngenix
+```
 
 ## Намеренно не включено в whitelist
 
