@@ -23,15 +23,15 @@ full:chat-ct.pochta.ru
 
 
 # СДЭК
-full:cdek.ru
+full:cdek.ru @servicepipe
 
 
 # KazanExpress
-full:kazanexpress.ru
+full:kazanexpress.ru @ngenix
 
 
 # Магнит Маркет
-full:mm.ru
+full:mm.ru @ngenix
 
 
 # Boxberry
@@ -44,7 +44,7 @@ full:xn--90af4abj.xn--p1ai # добро.рф
 
 
 # Знание
-full:znanierussia.ru
+full:znanierussia.ru @curator
 
 
 # ЭРА-ГЛОНАСС
@@ -56,16 +56,16 @@ full:hr-link.ru
 
 
 # КХЛ
-full:khl.ru
+full:khl.ru @servicepipe
 
 
 # Честный знак
-full:crpt.ru
-full:xn--80ajghhoc2aj1c8b.xn--p1ai # честныйзнак.рф
+full:crpt.ru @ddosguard
+full:xn--80ajghhoc2aj1c8b.xn--p1ai @ddosguard# честныйзнак.рф
 
 
 # Пикабу
-full:pikabu.ru
+full:pikabu.ru @ddosguard
 
 
 # 1С
@@ -87,45 +87,45 @@ full:mobile-api.energo.app
 
 
 # Дневник.ру
-full:dnevnik.ru
+full:dnevnik.ru @curator
 
 
 # Gismeteo (частично)
 full:gismeteo.ru
 full:www.gismeteo.ru
-full:st.gismeteo.st
+full:st.gismeteo.st @cdnvideo
 
 
 # Движение первых
-full:xn--90acagbhgpca7c8c7f.xn--p1ai # будьвдвижении.рф
-full:pervye.ru
+full:xn--90acagbhgpca7c8c7f.xn--p1ai @ddosguard# будьвдвижении.рф
+full:pervye.ru @ddosguard
 
 
 # Вебиум
-full:webium.ru
+full:webium.ru @stormwall
 
 
 # Фоксфорд
-full:foxford.ru
+full:foxford.ru @curator
 
 
 # Суточно.ру
-full:sutochno.ru
+full:sutochno.ru @servicepipe
 
 
 # Timeweb (частично)
-full:timeweb.cloud
+full:timeweb.cloud @curator
 
 
 # Звук
-full:zvuk.com
+full:zvuk.com @servicepipe
 
 
 # Газпром ИД
-full:gid.ru
-full:auth.gid.ru
-full:app.gid.ru
-full:static-sso.gid.ru
+full:gid.ru @stormwall
+full:auth.gid.ru @stormwall
+full:app.gid.ru @stormwall
+full:static-sso.gid.ru @cdnvideo
 
 
 # UX Feedback (частично)

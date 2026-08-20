@@ -3,7 +3,7 @@ full:medsi.ru
 
 
 # Мать и дитя
-full:mamadeti.ru
+full:mamadeti.ru @curator
 
 
 # ЕМИАС
@@ -11,20 +11,20 @@ full:emias.info
 
 
 # Аптека.ru
-full:apteka.ru
+full:apteka.ru @curator
 full:static.apteka.ru
 
 
 # Еаптека
-full:eapteka.ru
+full:eapteka.ru @ngenix
 
 
 # ПроДокторов
-full:prodoctorov.ru
+full:prodoctorov.ru @servicepipe
 
 
 # Медточка (частично)
-full:app.medtochka.ru
-full:app-mobile.medtochka.ru
-full:info-mobile.medtochka.ru
-full:profile-mobile.medtochka.ru
+full:app.medtochka.ru @servicepipe
+full:app-mobile.medtochka.ru @servicepipe
+full:info-mobile.medtochka.ru @servicepipe
+full:profile-mobile.medtochka.ru @servicepipe

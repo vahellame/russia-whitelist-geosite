@@ -3,19 +3,19 @@ full:avito.ru
 full:www.avito.ru
 full:m.avito.ru
 full:app.avito.ru
-full:static.avito.ru
+full:static.avito.ru @edgecenter
 
-full:www.avito.st
-full:00.img.avito.st
-full:10.img.avito.st
+full:www.avito.st @cdnvideo
+full:00.img.avito.st @edgecenter
+full:10.img.avito.st @edgecenter
 full:20.img.avito.st
-full:30.img.avito.st
-full:40.img.avito.st
-full:50.img.avito.st
-full:60.img.avito.st
-full:70.img.avito.st
-full:80.img.avito.st
-full:90.img.avito.st
+full:30.img.avito.st @cdnvideo
+full:40.img.avito.st @edgecenter
+full:50.img.avito.st @cdnvideo
+full:60.img.avito.st @edgecenter
+full:70.img.avito.st @edgecenter
+full:80.img.avito.st @edgecenter
+full:90.img.avito.st @edgecenter
 
 full:avitostat.avito.com
 
@@ -26,31 +26,31 @@ full:youla.io
 
 
 # Магнит
-full:magnit.ru
-full:id.magnit.ru
+full:magnit.ru @curator
+full:id.magnit.ru @curator
 full:images-foodtech.magnit.ru
-full:event-stream-api.magnit.ru
-full:middle-api.magnit.ru
+full:event-stream-api.magnit.ru @ngenix
+full:middle-api.magnit.ru @curator
 full:fda.middle-api.magnit.ru
 full:imgproxy.prod.ya.magnit.ru
 full:magnit-api-cdn.prod.ya.magnit.ru
 
 
 # Дикси
-full:dixy.ru
+full:dixy.ru @curator
 
 
 # Азбука вкуса
-full:av.ru
-full:azbukavkusa.ru
+full:av.ru @servicepipe
+full:azbukavkusa.ru @servicepipe
 
 
 # ВкусВилл
-full:vkusvill.ru
+full:vkusvill.ru @curator
 
 
 # Ашан
-full:auchan.ru
+full:auchan.ru @curator
 
 
 # SPAR
@@ -58,112 +58,112 @@ full:myspar.ru
 
 
 # Metro
-full:metro-cc.ru
+full:metro-cc.ru @edgecenter
 
 
 # Лента
-full:lenta.com
-full:lenta.tech
+full:lenta.com @curator
+full:lenta.tech @curator
 
 
 # Fix Price
-full:fix-price.com
+full:fix-price.com @servicepipe
 
 
 # М.Видео
-full:mvideo.ru
+full:mvideo.ru @stormwall
 
 
 # Sokolov
-full:sokolov.ru
-full:static-catalog.sokolov.ru
+full:sokolov.ru @curator
+full:static-catalog.sokolov.ru @cdnvideo
 
 
 # О'Кей
-full:okmarket.ru
+full:okmarket.ru @servicepipe
 
 
 # Красное&Белое
-full:krasnoeibeloe.ru
+full:krasnoeibeloe.ru @edgecenter
 
 
 # Достависта
-full:dostavista.ru
-full:robot.dostavista.ru
+full:dostavista.ru @stormwall
+full:robot.dostavista.ru @stormwall
 
 
 # Додо Пицца
-full:dodopizza.ru
+full:dodopizza.ru @servicepipe
 
-full:dodopizza.com
-full:globalapi.dodopizza.com
+full:dodopizza.com @servicepipe
+full:globalapi.dodopizza.com @servicepipe
 
-full:cdn.dodostatic.net
-full:media.dodostatic.net
+full:cdn.dodostatic.net @ngenix
+full:media.dodostatic.net @ngenix
 
-full:frontlogger.dodois.io
-full:mapi.dodois.io
-full:esapi.dodois.io
-full:pay.dodois.io
+full:frontlogger.dodois.io @ngenix
+full:mapi.dodois.io @servicepipe
+full:esapi.dodois.io @ngenix
+full:pay.dodois.io @servicepipe
 
-full:dodopizza.threads.im
+full:dodopizza.threads.im @servicepipe
 
-full:mapi.dodois.ru
+full:mapi.dodois.ru @servicepipe
 
 
 # Самокат
-full:samokat.ru
-full:api.samokat.ru
-full:core-colibri-api.samokat.ru
-full:web-static.samokat.ru
-full:health.samokat.ru
-full:sting.samokat.ru
-full:error-tracking.samokat.ru
-full:code-push-api.samokat.ru
-full:damcdn.samokat.ru
+full:samokat.ru @servicepipe
+full:api.samokat.ru @servicepipe
+full:core-colibri-api.samokat.ru @servicepipe
+full:web-static.samokat.ru @cdnvideo
+full:health.samokat.ru @servicepipe
+full:sting.samokat.ru @servicepipe
+full:error-tracking.samokat.ru @servicepipe
+full:code-push-api.samokat.ru @servicepipe
+full:damcdn.samokat.ru @ngenix
 
 
 # Купер
-full:kuper.ru
-full:ssp-gw.kuper.ru
-full:imgproxy.kuper.ru
+full:kuper.ru @servicepipe
+full:ssp-gw.kuper.ru @servicepipe
+full:imgproxy.kuper.ru @ngenix
 
-full:sbermarket.ru
+full:sbermarket.ru @ngenix
 
 
 # Мегамаркет
-full:megamarket.ru
+full:megamarket.ru @servicepipe
 
 
 # Петрович
-full:petrovich.ru
+full:petrovich.ru @curator
 
 
 # Детский мир
-full:detmir.ru
-full:www.detmir.ru
+full:detmir.ru @ddosguard
+full:www.detmir.ru @ddosguard
 
-full:go.detmir.st
+full:go.detmir.st @ddosguard
 
 
 # Вкусно и точка
-full:vkusnoitochka.ru
-full:mobile-api.vkusnoitochka.ru
+full:vkusnoitochka.ru @curator
+full:mobile-api.vkusnoitochka.ru @curator
 full:ma-prod.cdn.vkusnoitochka.ru
 
 
 # Бургер Кинг
-full:burgerkingrus.ru
-full:edu.burgerkingrus.ru
-full:orderapp.burgerkingrus.ru
+full:burgerkingrus.ru @servicepipe
+full:edu.burgerkingrus.ru @servicepipe
+full:orderapp.burgerkingrus.ru @servicepipe
 full:orderapp-app-static.burgerkingrus.ru
-full:notifier.burgerkingrus.ru
+full:notifier.burgerkingrus.ru @servicepipe
 
 
 # Rostic's
-full:rostics.ru
+full:rostics.ru @ngenix
 
-full:api.prod.digital.uni.rest
+full:api.prod.digital.uni.rest @ngenix
 full:grpc.prod.digital.uni.rest
 
 
@@ -172,21 +172,21 @@ full:auto.ru
 
 
 # Lamoda
-full:lamoda.ru
-full:www.lamoda.ru
+full:lamoda.ru @curator
+full:www.lamoda.ru @servicepipe
 
-full:a.lmcdn.ru
+full:a.lmcdn.ru @edgecenter
 
 
 # ЦУМ
-full:tsum.com
-full:tsum.ru
+full:tsum.com @curator
+full:tsum.ru @curator
 
 
 # Лэтуаль (частично)
-full:letu.ru
-full:www.letu.ru
-full:i.letu.ru
+full:letu.ru @ngenix
+full:www.letu.ru @ngenix
+full:i.letu.ru @ngenix
 
 
 # Циан (частично)
@@ -195,29 +195,29 @@ full:static.cdn-cian.ru
 
 
 # Золотое Яблоко (частично)
-full:goldapple.ru
-full:api-n.goldapple.ru
-full:ccdn.goldapple.ru
-full:mcdn.goldapple.ru
-full:pcdn.goldapple.ru
-full:vcdn.goldapple.ru
+full:goldapple.ru @ngenix
+full:api-n.goldapple.ru @ngenix
+full:ccdn.goldapple.ru @ngenix
+full:mcdn.goldapple.ru @ngenix
+full:pcdn.goldapple.ru @ngenix
+full:vcdn.goldapple.ru @ngenix
 
 
 
 # Sunlight (частично)
-full:g0.sunlight.net
-full:g1.sunlight.net
-full:g2.sunlight.net
-full:g3.sunlight.net
-full:g4.sunlight.net
-full:g5.sunlight.net
-full:g6.sunlight.net
-full:g7.sunlight.net
-full:g8.sunlight.net
-full:g9.sunlight.net
+full:g0.sunlight.net @cdnvideo
+full:g1.sunlight.net @cdnvideo
+full:g2.sunlight.net @cdnvideo
+full:g3.sunlight.net @cdnvideo
+full:g4.sunlight.net @cdnvideo
+full:g5.sunlight.net @cdnvideo
+full:g6.sunlight.net @cdnvideo
+full:g7.sunlight.net @cdnvideo
+full:g8.sunlight.net @edgecenter
+full:g9.sunlight.net @cdnvideo
 
 
 # DNS
-full:dns-shop.ru
-full:www.dns-shop.ru
-full:c.dns-shop.ru
+full:dns-shop.ru @curator
+full:www.dns-shop.ru @curator
+full:c.dns-shop.ru @cdnvideo

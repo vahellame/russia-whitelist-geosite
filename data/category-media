@@ -1,10 +1,10 @@
 # Известия
-full:iz.ru
+full:iz.ru @ddosguard
 
 
 # ТАСС
-full:tass.ru
-full:tass.com
+full:tass.ru @servicepipe
+full:tass.com @servicepipe
 
 
 # Газета.ru
@@ -16,7 +16,7 @@ full:lenta.ru
 
 
 # РБК
-full:rbc.ru
+full:rbc.ru @curator
 
 
 # РИА Новости
@@ -28,15 +28,15 @@ full:rambler.ru
 
 
 # Аргументы и Факты
-full:aif.ru
+full:aif.ru @ddosguard
 
 
 # Российская газета
-full:rg.ru
+full:rg.ru @curator
 
 
 # Ведомости
-full:vedomosti.ru
+full:vedomosti.ru @curator
 
 
 # Московский комсомолец
@@ -44,43 +44,43 @@ full:mk.ru
 
 
 # Коммерсант
-full:kommersant.ru
+full:kommersant.ru @curator
 
 
 # Комсомольская правда
-full:kp.ru
+full:kp.ru @stormwall
 
 
 # RT
-full:rt.com
+full:rt.com @ddosguard
 
 
 # Sport24
-full:sport24.ru
+full:sport24.ru @curator
 
 
 # Первый канал
-full:1tv.ru
+full:1tv.ru @curator
 
 
 # НТВ
-full:ntv.ru
+full:ntv.ru @ddosguard
 
 
 # ТНТ
-full:tnt-online.ru
+full:tnt-online.ru @curator
 
 
 # СТС
-full:ctc.ru
+full:ctc.ru @servicepipe
 
 
 # Пятый канал
-full:5-tv.ru
+full:5-tv.ru @ddosguard
 
 
 # ТВ Центр
-full:tvc.ru
+full:tvc.ru @curator
 
 
 # ТВ3
@@ -88,7 +88,7 @@ full:tv3.ru
 
 
 # Матч ТВ
-full:matchtv.ru
+full:matchtv.ru @edgecenter
 
 
 # Спас
@@ -96,19 +96,19 @@ full:spastv.ru
 
 
 # ОТР
-full:otr-online.ru
+full:otr-online.ru @curator
 
 
 # Пятница
-full:friday.ru
+full:friday.ru @ddosguard
 
 
 # Домашний
-full:domashniy.ru
+full:domashniy.ru @servicepipe
 
 
 # Муз-ТВ
-full:muz-tv.ru
+full:muz-tv.ru @servicepipe
 
 
 # Мир
@@ -128,11 +128,11 @@ full:vmeste-rf.tv
 
 
 # ВГТРК / Смотрим
-full:smotrim.ru
+full:smotrim.ru @curator
 
 
 # Ура.ру
-full:ura.ru
+full:ura.ru @stormwall
 
-full:ura.news
+full:ura.news @stormwall
 full:cdn-asset.ura.news

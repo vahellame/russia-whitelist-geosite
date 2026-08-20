@@ -14,9 +14,9 @@ domain:yota.ru
 domain:mts.ru
 full:mtsbank.ru
 full:mts-link.ru
-full:mymts.ru
-full:kion.ru
-full:ticketland.ru
+full:mymts.ru @curator
+full:kion.ru @curator
+full:ticketland.ru @servicepipe
 full:urent.ru
 
 
@@ -44,7 +44,7 @@ domain:ertelecom.ru
 
 
 # ВТБ Мобайл
-full:vtbmobile.ru
+full:vtbmobile.ru @curator
 
 
 # Next Mobile

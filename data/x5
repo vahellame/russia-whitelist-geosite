@@ -12,18 +12,18 @@ full:myapelsin.ru
 
 
 # Пятёрочка
-full:5ka.ru
-full:5d.5ka.ru
+full:5ka.ru @servicepipe
+full:5d.5ka.ru @servicepipe
 
 
 # Перекрёсток
-full:perekrestok.ru
-full:www.perekrestok.ru
+full:perekrestok.ru @servicepipe
+full:www.perekrestok.ru @servicepipe
 
 
 # Впрок
-full:vprok.ru
+full:vprok.ru @ngenix
 
 
 # Чижик
-full:chizhik.club
+full:chizhik.club @servicepipe

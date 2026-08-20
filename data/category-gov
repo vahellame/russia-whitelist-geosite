@@ -16,7 +16,7 @@ full:sfd.gosuslugi.ru
 full:max.gosuslugi.ru
 # full:bot.gosuslugi.ru  # Недоступно на Т-Мобайле
 
-full:gu-st.ru
+full:gu-st.ru @ngenix
 
 full:gov.ru
 full:mos.ru
@@ -29,14 +29,14 @@ full:mvd.ru
 
 
 # ФНС
-full:nalog.ru
+full:nalog.ru @ngenix
 
 
 # Единая Россия
-full:er.ru
-full:cdn.er.ru
+full:er.ru @curator
+full:cdn.er.ru @cdnvideo
 
 
 # Яблоко
-full:yabloko.ru
-full:www.yabloko.ru
+full:yabloko.ru @ddosguard
+full:www.yabloko.ru @ddosguard

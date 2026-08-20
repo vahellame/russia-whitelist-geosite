@@ -9,7 +9,7 @@ full:assets.otello.ru
 
 
 # Максим
-full:taximaxim.ru
+full:taximaxim.ru @curator
 
 
 # РЖД
@@ -17,52 +17,52 @@ domain:rzd.ru
 
 
 # Гранд Сервис Экспресс
-full:grandtrain.ru
+full:grandtrain.ru @ddosguard
 
 
 # Туту
-full:tutu.ru
-full:www.tutu.ru
-full:id.tutu.ru
-full:user-api.tutu.ru
-full:hotel.tutu.ru
-full:frontlog.tutu.ru
-full:main-page.tutu.ru
-full:ux.tutu.ru
-full:chat-widget-iframe.tutu.ru
+full:tutu.ru @curator
+full:www.tutu.ru @curator
+full:id.tutu.ru @curator
+full:user-api.tutu.ru @curator
+full:hotel.tutu.ru @curator
+full:frontlog.tutu.ru @curator
+full:main-page.tutu.ru @curator
+full:ux.tutu.ru @curator
+full:chat-widget-iframe.tutu.ru @curator
 
-full:cdn1.tu-tu.ru
-full:cdn2.tu-tu.ru
-full:cdn4.tu-tu.ru
+full:cdn1.tu-tu.ru @ngenix
+full:cdn2.tu-tu.ru @ngenix
+full:cdn4.tu-tu.ru @ngenix
 
 
 # Деловые линии
-full:dellin.ru
+full:dellin.ru @curator
 
 
 # Ситидрайв
-full:citydrive.ru
+full:citydrive.ru @curator
 
 
 # Аэрофлот
-full:aeroflot.ru
+full:aeroflot.ru @ngenix
 
 
 # Победа
-full:flypobeda.ru
+full:flypobeda.ru @servicepipe
 
 
 # S7
-full:s7.ru
-full:www.s7.ru
-full:chat.s7.ru
-full:portal.s7cdn.online
-full:public.s7cdn.online
-full:s3-portal.s7cdn.online
+full:s7.ru @servicepipe
+full:www.s7.ru @servicepipe
+full:chat.s7.ru @servicepipe
+full:portal.s7cdn.online @cdnvideo
+full:public.s7cdn.online @cdnvideo
+full:s3-portal.s7cdn.online @cdnvideo
 
 
 # Делимобиль
-full:delimobil.ru
+full:delimobil.ru @curator
 
 
 # TaxSee
@@ -76,7 +76,7 @@ full:belkacar.ru
 
 
 # Едем.рф
-full:xn--d1abb2a.xn--p1ai # едем.рф
+full:xn--d1abb2a.xn--p1ai @stormwall# едем.рф
 
 
 # Парковки Санкт-Петербурга
@@ -85,4 +85,4 @@ full:parking.spb.ru
 
 
 # Whoosh
-full:whoosh.bike
+full:whoosh.bike @ddosguard
