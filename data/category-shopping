@@ -83,10 +83,6 @@ full:static-catalog.sokolov.ru @cdnvideo
 full:okmarket.ru @servicepipe
 
 
-# Красное&Белое
-full:krasnoeibeloe.ru @edgecenter
-
-
 # Достависта
 full:dostavista.ru @stormwall
 full:robot.dostavista.ru @stormwall

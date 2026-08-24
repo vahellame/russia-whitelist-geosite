@@ -7,19 +7,20 @@
 
 
 # Госуслуги
-full:gosuslugi.ru
-full:www.gosuslugi.ru
-full:lk.gosuslugi.ru
-full:esia.gosuslugi.ru
-full:elections.gosuslugi.ru
-full:sfd.gosuslugi.ru
-full:max.gosuslugi.ru
-# full:bot.gosuslugi.ru  # Недоступно на Т-Мобайле
+domain:gosuslugi.ru # Слишком много поддоменов наподобие rkimk62.gosuslugi.ru
 
 full:gu-st.ru @ngenix
 
+# Сервер органов государственной власти России
 full:gov.ru
+
+
+# Портал Москвы
 full:mos.ru
+full:www.mos.ru
+
+
+# Единая биометрическая система
 full:ebs.ru
 
 
