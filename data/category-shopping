@@ -6,17 +6,17 @@ full:app.avito.ru
 full:static.avito.ru @edgecenter
 domain:rt.avito.ru # Поддомены наподобие 0b94299367742880fea59959d5345ea1.rt.avito.ru
 
-full:www.avito.st @cdnvideo
+full:www.avito.st @edgecenter
 full:00.img.avito.st @edgecenter
 full:10.img.avito.st @edgecenter
 full:20.img.avito.st @cdnvideo
 full:30.img.avito.st @edgecenter
 full:40.img.avito.st @cdnvideo
-full:50.img.avito.st @cdnvideo
-full:60.img.avito.st @edgecenter
+full:50.img.avito.st @edgecenter
+full:60.img.avito.st @cdnvideo
 full:70.img.avito.st @edgecenter
 full:80.img.avito.st @cdnvideo
-full:90.img.avito.st @cdnvideo
+full:90.img.avito.st @edgecenter
 
 full:avitostat.avito.com
 
@@ -195,7 +195,7 @@ full:static.cdn-cian.ru
 full:goldapple.ru @ngenix
 full:api-n.goldapple.ru @ngenix
 full:ccdn.goldapple.ru @ngenix
-full:mcdn.goldapple.ru @ngenix
+full:mcdn.goldapple.ru
 full:pcdn.goldapple.ru @ngenix
 full:vcdn.goldapple.ru @ngenix
 
