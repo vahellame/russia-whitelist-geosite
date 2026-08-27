@@ -20,7 +20,7 @@ WORKERS = 16
 PROVIDERS: dict[str, tuple[int, ...]] = {
     "cdnvideo": (57363, 204720),
     "curator": (51115,),
-    "ddos-guard": (57724,),
+    "ddosguard": (57724,),
     "edgecenter": (210756,),
     "ngenix": (34879,),
     "servicepipe": (201706,),
