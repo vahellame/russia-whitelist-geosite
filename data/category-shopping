@@ -9,17 +9,17 @@ full:cs.avito.ru
 full:sntr.avito.ru
 domain:rt.avito.ru # Поддомены наподобие 0b94299367742880fea59959d5345ea1.rt.avito.ru
 
-full:www.avito.st @edgecenter
+full:www.avito.st @cdnvideo
 full:00.img.avito.st @edgecenter
-full:10.img.avito.st @cdnvideo
+full:10.img.avito.st @edgecenter
 full:20.img.avito.st @cdnvideo
 full:30.img.avito.st @edgecenter
 full:40.img.avito.st @edgecenter
-full:50.img.avito.st @cdnvideo
+full:50.img.avito.st @edgecenter
 full:60.img.avito.st @edgecenter
-full:70.img.avito.st @edgecenter
-full:80.img.avito.st @cdnvideo
-full:90.img.avito.st @edgecenter
+full:70.img.avito.st @cdnvideo
+full:80.img.avito.st @edgecenter
+full:90.img.avito.st @cdnvideo
 
 full:avitostat.avito.com
 
@@ -33,7 +33,7 @@ full:youla.io
 full:magnit.ru @curator
 full:id.magnit.ru @curator
 full:images-foodtech.magnit.ru
-full:event-stream-api.magnit.ru
+full:event-stream-api.magnit.ru @ngenix
 full:middle-api.magnit.ru @curator
 full:fda.middle-api.magnit.ru
 full:imgproxy.prod.ya.magnit.ru
@@ -207,14 +207,14 @@ full:vcdn.goldapple.ru @ngenix
 # Sunlight (частично)
 full:g0.sunlight.net @edgecenter
 full:g1.sunlight.net @cdnvideo
-full:g2.sunlight.net @cdnvideo
-full:g3.sunlight.net @edgecenter
-full:g4.sunlight.net @cdnvideo
+full:g2.sunlight.net @edgecenter
+full:g3.sunlight.net @cdnvideo
+full:g4.sunlight.net @edgecenter
 full:g5.sunlight.net @cdnvideo
-full:g6.sunlight.net @cdnvideo
+full:g6.sunlight.net @edgecenter
 full:g7.sunlight.net @cdnvideo
 full:g8.sunlight.net @cdnvideo
-full:g9.sunlight.net @edgecenter
+full:g9.sunlight.net @cdnvideo
 
 
 # DNS
