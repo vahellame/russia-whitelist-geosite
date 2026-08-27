@@ -1,7 +1,7 @@
 # Rutube
 full:rutube.ru @curator @servicepipe
 
-domain:rtbcdn.ru
+domain:rtbcdn.ru # Поддомены наподобие river-6-605.rtbcdn.ru
 
 # rutubelist.ru # TODO: check subdomains
 

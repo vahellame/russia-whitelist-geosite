@@ -4,6 +4,7 @@ full:www.avito.ru
 full:m.avito.ru
 full:app.avito.ru
 full:static.avito.ru @edgecenter
+domain:rt.avito.ru # Поддомены наподобие 0b94299367742880fea59959d5345ea1.rt.avito.ru
 
 full:www.avito.st @cdnvideo
 full:00.img.avito.st @edgecenter
